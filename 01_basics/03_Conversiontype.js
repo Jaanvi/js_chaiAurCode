@@ -38,3 +38,37 @@ console.log(typeof booleanlogedin);     // boolean
 console.log(booleanlogedin); //true
 
 //jb hum boolean me convert krte hai to 1=>true aur 0=>false hota hai,, aur jb hum emty string ko boolean me convert krenge to false aayga and non empty string true dega 
+
+
+
+//string to number conversion
+let value=3
+let negvalue=-3
+console.log(negvalue);
+console.log(2+2);
+console.log(2-2);
+console.log(2*3);
+console.log(2**3);//for power
+console.log(2/3);
+console.log(2%3);
+
+let str1="hello "
+let str2="jaanvi"
+let str3=str1+str2
+console.log(str3);
+console.log(2+"3");
+console.log("2"+3);
+console.log("2"+4+4);//agr string pehle hoga to sabhi ko string ki treh treat kiya jayga
+console.log(2+4+"4");//agr string baad me hai to pehle wala apna conversion  krega apna
+
+console.log(+true)
+//console.log(true+) //it is wrong
+//not a good practice
+// let num1,num2,num3
+// num1=num2=num3=2+2
+
+//prefix and postfix like c++
+let count=100
+count++;
+console.log(count);
+
